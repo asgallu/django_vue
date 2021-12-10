@@ -1,0 +1,12 @@
+Django==3.2
+django-debug-toolbar==3.2.2
+django-cors-headers==3.4.0
+djangorestframework==3.11.1
+djangorestframework-simplejwt==4.4.0
+#lazy-object-proxy==1.4.3
+psycopg2==2.8.5
+PyJWT==1.7.1
+pylint==2.5.3
+pytz==2020.1
+django-import-export
+

@@ -1,0 +1,36 @@
+{#% extends "templates/base.html" %#}
+{% extends "base.html" %}
+
+{% block title %}
+Management
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <div class="md-12">
+    <h1>Ultramar Management</h1>
+  </div>
+  <div class="md-12">
+    {#% lorem 5 p random  %#}
+    <h3>Back</h3>
+      Main endpoints:</br>
+      <ol>
+      <li>
+        api => <a href="http://127.0.0.1:8000/api/v1/" target="_blank">http://127.0.0.1:8000/api/v1/</a>    
+      </li>
+      <li>
+        admin back => <a href="http://localhost:8000/admin/" target="_blank">http://localhost:8000/admin/</a>    
+      </li>
+      <li>
+        get a token => <a href="http://127.0.0.1:8000/api/v1/token/" target="_blank">http://127.0.0.1:8000/api/v1/token/</a>    
+      </li>
+      <li>
+        refresh the token => <a href="http://127.0.0.1:8000/api/v1/token/refresh/" target="_blank">http://127.0.0.1:8000/api/v1/token/refresh/</a>    
+      </li>
+      </ol>
+    <h3>Front</h3>
+      Pls go to <a href="http://localhost:8080/" target="_blank">http://localhost:8080/</a> to use the front    
+  </div>
+</div>
+{% endblock %}
